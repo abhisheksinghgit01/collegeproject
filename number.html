@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number To Words Converter</title>
+    <style> body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .heading{
+        text-decoration-color: blue;
+    }
+    .container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    input[type="number"] {
+        padding: 10px;
+        width: 200px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #result {
+        font-size: 18px;
+        margin-top: 20px;
+        
+    }</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="heading">Number To Words Conversion</h1>
+        </div>
+        <div class="input">
+            <h3 class="input-text">Enter Number </h3> <br>
+            <input id="input-box" placeholder="eg., 123" oninput="getValue()"> <br>
+        </div>
+        <div class="output">
+            <h3 class="convert-text">Converted In Words </h3>
+            <div class="output-box">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="numcon.js"></script>
+</body>
+
+</html>
